@@ -10,6 +10,8 @@ https://redis.io/commands/
 
 # Variations of SET:
 
+![variations of SET](./SET_Variations.png)
+
 1. **_EX_** is used for setting when our data will expire.
 2. **_XX_** is used for setting value to key only if key is present in cache already.
 
