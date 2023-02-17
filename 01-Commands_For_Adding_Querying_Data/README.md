@@ -40,3 +40,14 @@ SET COLOR 'Blue' EX 4
 ```
 
 👆 This will set colour variable = Blue for 4 seconds
+
+5. SETEX: **SET key value EX 4** is exactly same as SETEX key 4 value
+6. SETNX: SETNX does the same thing as SET with NX option
+7. **MSET**:
+   MSET is used for setting multiple key value pairs at a time.
+
+```
+MSET colour 'white' car 'AURA'
+```
+
+👆 Adds two keys at a time
