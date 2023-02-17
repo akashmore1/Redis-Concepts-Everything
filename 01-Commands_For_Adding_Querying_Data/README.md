@@ -30,3 +30,13 @@ SET colour 'red' NX
 ```
 
 👆Value will not be sent to red if colour key is already preset.
+
+#### 4. Expire in SET:
+
+a. EX : (Automatically deletes in seconds)
+
+```
+SET COLOR 'Blue' EX 4
+```
+
+👆 This will set colour variable = Blue for 4 seconds
