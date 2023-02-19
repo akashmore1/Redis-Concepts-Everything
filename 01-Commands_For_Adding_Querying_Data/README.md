@@ -51,3 +51,5 @@ MSET colour 'white' car 'AURA'
 ```
 
 👆 Adds two keys at a time
+
+8. **MGET**: Works like MSET, used for getting multile key values at a time.
